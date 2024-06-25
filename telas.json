@@ -1,0 +1,105 @@
+[
+    {
+        "componente": "usuario",
+        "path": "/usuario",
+        "crud": ["C", "R", "U", "D", "L"],
+        "campos":[
+            {
+                "type": "text",
+                "name": "nome",
+                "label": "Nome",
+                "placeholder": "Nome",
+                "required": true,
+                "disabled": true
+            },
+            {
+                "type": "text",
+                "name": "email",
+                "label": "E-mail",
+                "placeholder": "E-mail",
+                "required": true
+            },
+            {
+                "type": "title",
+                "label": "Título de divisão"
+            },
+            {
+                "type": "password",
+                "name": "senha",
+                "label": "Senha",
+                "placeholder": "Senha",
+                "required": true
+            },
+            {
+                "type": "password",
+                "name": "confirmarSenha",
+                "label": "Confirmar Senha",
+                "placeholder": "Confirmar Senha",
+                "required": true
+            },
+            {
+                "type": "checkbox",
+                "name": "checkbox",
+                "label": "Checkbox",
+                "required": true,
+                "disabled": true
+            },
+            {
+                "type": "radio",
+                "name": "radio",
+                "label": "Radio",
+                "required": true,
+                "disabled": true
+            },
+            {
+                "type": "integer",
+                "name": "integer",
+                "label": "integer",
+                "placeholder": "integer",
+                "required": true,
+                "disabled": false
+            },
+            {
+                "type": "money",
+                "name": "money",
+                "label": "money",
+                "placeholder": "money",
+                "required": true,
+                "disabled": false
+            },
+            {
+                "type": "textarea",
+                "name": "textarea",
+                "label": "textarea",
+                "placeholder": "textarea",
+                "required": true,
+                "disabled": false
+            },
+            {
+                "type": "calendar",
+                "name": "calendar",
+                "label": "calendar",
+                "placeholder": "calendar",
+                "required": true,
+                "disabled": false
+            },
+            {
+                "type": "autocomplete",
+                "name": "perfil",
+                "label": "Perfil",
+                "placeholder": "Perfil",
+                "required": true,
+                "options": [
+                    {
+                        "value": "ADMIN",
+                        "label": "Administrador"
+                    },
+                    {
+                        "value": "USER",
+                        "label": "Usuário"
+                    }
+                ]
+            }
+        ]
+    }
+]

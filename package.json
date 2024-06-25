@@ -1,0 +1,16 @@
+{
+    "name": "gerador-angular",
+    "version": "1.0.0",
+    "description": "Um projeto Node.js para criar componentes Angular",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "type": "module",
+    "author": "Seu Nome",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^6.0.12"
+    }
+}
